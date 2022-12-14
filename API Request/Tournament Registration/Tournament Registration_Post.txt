@@ -1,0 +1,39 @@
+
+https://localhost:44303/api/TournamentRegistration
+
+POST :
+
+Header Part
+
+Host: localhost:44303
+Accept: application/json
+Content-Type: application/json
+
+
+Request:
+
+{
+    "Oper":"add"
+    ,"TournamentId":""
+    ,"MobileNo":7043762211
+    ,"BannerImage":"Bannnertest.png"
+    ,"Userprofileimage":"UserProfiletest.png"
+    ,"Tournamentname":"test"
+    ,"Cityid":1
+    ,"Citytitle":"CITYTITLE"
+    ,"Groundid":2
+    ,"Groundtitle":"GROUNDTITLE"
+    ,"Organisername":"ORGANISERNAME"
+    ,"Organiserno":6546541654
+    ,"Startdate":20221201
+    ,"Enddate":20221203
+    ,"Categoryid":3
+    ,"Categorytitle":"CATEGORYTITLE"
+    ,"Balltypeid":4
+    ,"Balltypetitle":"BALLTYPETITLE"
+    ,"Pitchtypeid":5
+    ,"Pitchtypetitle":"PITCHTYPETITLE"
+    ,"Matchtypeid":6
+    ,"Matchtypetitle":"MATCHTYPETITLE"
+    ,"Remark":"REMARK"
+}

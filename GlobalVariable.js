@@ -1,0 +1,2 @@
+GlobalVariable.GMobileNo = "";
+GlobalVariable.Glogin = "";

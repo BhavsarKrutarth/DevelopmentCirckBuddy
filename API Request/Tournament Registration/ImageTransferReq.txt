@@ -1,0 +1,19 @@
+
+https://localhost:44303/api/TournamentMyTeam
+
+POST :
+
+Header Part
+
+Host: localhost:44303
+Accept: application/json
+Content-Type: application/json
+
+
+Request:
+
+{
+    "OldFloderName":"temp",
+    "NewFloderName":"UserProfile",
+    ,"ImageDeatile":[{"Image": "d12eeb92-f05d-4f7e-b57d-0576da695561.jpeg", "id": "Gb-b4cf082e-b9ff-9f91-14d1-e605f8a9e9da"}, {"Image": "0bbe98d0-2db2-4f58-9ac9-8f0a6f264c75.jpeg", "id": "Sh-5bd9050b-3f23-1219-5f86-a1da54586699"}]
+}

@@ -1,0 +1,18 @@
+
+https://localhost:44303/api/TournamentMyTeam
+
+POST :
+
+Header Part
+
+Host: localhost:44303
+Accept: application/json
+Content-Type: application/json
+
+
+Request:
+
+{
+    "Oper":"add"
+    ,"Subiteam":[{"CityId": "1", "CityName": "SURAT", "ImageFlieName": "", "ImageName": "", "MobileNo": "7043762211", "id": "te-93fe827d-6158-e728-0c7e-95edfeb8bc62", "imgtitle": "te", "title": "test 1"}, {"CityId": "1", "CityName": "SURAT", "ImageFlieName": "", "ImageName": "", "MobileNo": "7043762211", "id": "te-fe0ebcfd-ccb7-8d76-4ed2-25d042f21bc3", "imgtitle": "te", "title": "test"}]
+}
